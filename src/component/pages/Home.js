@@ -1,6 +1,12 @@
 import React, { Component } from "react"
 import Header from '../common/Header'
-import image from '../assets/img/flower.jpg'
+import image from '../assets/img/header-bg.jpg'
+
+// pages
+import AboutContent from './AboutContent'
+import ServicesContent from './ServicesContent'
+import PortfolioContent from './PortfolioContent'
+
 // D:\bookworm\webApp\src\component\assets\img\flower.jpg
 class Home extends Component{
 
@@ -14,6 +20,9 @@ class Home extends Component{
                     showButton={true}
                     image={image}
                 />
+                <ServicesContent/>
+                <PortfolioContent/>
+                <AboutContent/>
                 {/* <header className="masthead">
                     <div className="container">
                         <div className="masthead-subheading"></div>

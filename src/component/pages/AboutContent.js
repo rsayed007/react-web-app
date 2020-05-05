@@ -1,23 +1,12 @@
 import React, { Component } from "react";
 
-import Header from '../common/Header'
-import image from '../assets/img/flower.jpg'
-import AboutContent from './AboutContent'
 
-
-class About extends Component{
+class AboutContent extends Component{
     render(){
         return(
             <div>
-                <Header
-                    title=""
-                    subTitle="About US"
-                    buttonText="Tell Me More"
-                    showButton={false}
-                    image={image}
-                />
-                <AboutContent/>
-                {/* <section className="page-section" id="about">
+                
+                <section className="page-section" id="about">
                     <div className="container">
                         <div className="text-center">
                             <h2 className="section-heading text-uppercase">About</h2>
@@ -71,10 +60,10 @@ class About extends Component{
                             </li>
                         </ul>
                     </div>
-                </section> */}
+                </section>
             </div>
         )
     }
 }
 
-export default About;
+export default AboutContent;
