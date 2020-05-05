@@ -8,6 +8,7 @@ import Home from './component/pages/Home'
 import About from './component/pages/About'
 import ServicesHead from './component/pages/ServicesHead'
 import PortfolioHead from './component/pages/PortfolioHeader'
+import TeamHead from './component/pages/TeamHead'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/services' component={ServicesHead} />
         <Route exact path='/portfolio' component={PortfolioHead} />
-
+        <Route exact path='/team' component={TeamHead} />
       </PageWrapper>
     </Router>
   );

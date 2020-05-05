@@ -6,7 +6,7 @@ import image from '../assets/img/header-bg.jpg'
 import AboutContent from './AboutContent'
 import ServicesContent from './ServicesContent'
 import PortfolioContent from './PortfolioContent'
-
+import TeamMemberContent from './TeamMemberContent'
 // D:\bookworm\webApp\src\component\assets\img\flower.jpg
 class Home extends Component{
 
@@ -23,6 +23,7 @@ class Home extends Component{
                 <ServicesContent/>
                 <PortfolioContent/>
                 <AboutContent/>
+                <TeamMemberContent/>
                 {/* <header className="masthead">
                     <div className="container">
                         <div className="masthead-subheading"></div>
